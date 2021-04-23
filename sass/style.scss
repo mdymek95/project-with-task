@@ -32,7 +32,7 @@ section {
     position: relative;
     font-size: 55px;
     font-weight: 500;
-    margin: 0 0 60px 0;
+    margin: 0 0 30px 0;
     font-family: $font-splash;
 }
 
@@ -116,4 +116,33 @@ section {
 
 .navigation a:hover {
     color: $color-one;
+}
+
+.services .container {
+    margin: 50px 0;
+}
+
+.box {
+    padding: 0 15px;
+}
+
+.box i {
+    font-size: 30px;
+    background: initial;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: $color-one;
+    border-radius: 50%;
+    border-color: $color-one;
+    border-style: solid;
+}
+
+.box h2 {
+    font-family: $font-splash;
+}
+
+.box p {
+    font-size: 13px;
+    color: #a4b0be;
 }
