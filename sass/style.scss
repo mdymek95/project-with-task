@@ -57,6 +57,11 @@ section {
     transition: $transition;
  }
 
+ .btn:hover {
+     color: $color-one;
+     background-color: #fff;
+ }
+
 .splash {
     height: 100vh;
     position: relative;
@@ -171,4 +176,34 @@ section {
 
 .portfolio .page-subtitle {
     margin-bottom: 65px;
+}
+
+.icon {
+    font-size: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.icon i {
+    font-size: 30px;
+    background: $color-two;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    transition: $transition;
+    color: #fff;
+}
+
+.icon i:hover {
+    transform: scale(1.2);
+}
+
+.page-footer ul {
+    margin: 46px 0 46px 0;
+    text-align: center;
+}
+
+.page-footer h5 {
+    text-align: left;
 }
