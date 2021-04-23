@@ -207,3 +207,34 @@ section {
 .page-footer h5 {
     text-align: left;
 }
+
+@media (max-width: 767px) {
+    .navigation ul li {
+        padding: 0 5px;
+    }
+
+    .page-title {
+        font-size: 46px;
+    }
+
+    .section-title {
+        font-size: 48px;
+    }
+
+    .page-subtitle {
+        font-size: 1em;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .icon i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 25px;
+    }
+
+    .services .container {
+        flex-wrap: wrap;
+    }
+}
