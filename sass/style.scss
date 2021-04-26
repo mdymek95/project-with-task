@@ -158,20 +158,24 @@ section {
 
 .card {
     margin-bottom: 30px;
+    background: #fff;
 }
 
 .card img {
-    width: 80%;
+    width: 100%;
 }
 
 .card-title {
     font-family: $font-splash;
+    margin-bottom: auto;
 }
 
 .card-text {
     color: #57606f;
     font-size: 13px;
     font-style: italic;
+    margin-top: 0px;
+    padding-bottom: 15px;
 }
 
 .portfolio .page-subtitle {
@@ -199,13 +203,22 @@ section {
     transform: scale(1.2);
 }
 
+.page-footer {
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: auto;
+}
+
 .page-footer ul {
-    margin: 46px 0 46px 0;
     text-align: center;
+    position: relative;
+    margin: 30px;
+    padding-left: 0;
 }
 
 .page-footer h5 {
     text-align: left;
+    position: absolute;
 }
 
 @media (max-width: 767px) {
