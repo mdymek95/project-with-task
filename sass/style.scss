@@ -259,4 +259,9 @@ section {
     .services .container {
         flex-wrap: wrap;
     }
+
+    .page-footer h5 {
+        position: static;
+        text-align: center;
+    }
 }
