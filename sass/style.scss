@@ -233,6 +233,8 @@ section {
 @media (max-width: 767px) {
     .navigation ul li {
         padding: 0 5px;
+        margin-right: 0;
+        font-size: 15px;
     }
 
     .page-title {
@@ -263,5 +265,13 @@ section {
     .page-footer h5 {
         position: static;
         text-align: center;
+    }
+
+    .nav-title {
+        padding-left: 0;
+    }
+
+    section {
+        padding: 108px 10px;
     }
 }
