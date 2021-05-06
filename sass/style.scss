@@ -234,7 +234,7 @@ section {
     .navigation ul li {
         padding: 0 5px;
         margin-right: 0;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .page-title {
@@ -273,5 +273,10 @@ section {
 
     section {
         padding: 108px 10px;
+    }
+
+    .navigation .container {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
